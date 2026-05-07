@@ -1,0 +1,25 @@
+# General
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Env / secrets (never commit)
+.env
+.env.*
+
+# Flutter / Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+build/
+
+# Rust
+target/
+
