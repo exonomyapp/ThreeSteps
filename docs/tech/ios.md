@@ -63,5 +63,4 @@ On iOS:
 ---
 
 **Docs navigation**  
-Previous: [Android](./android.md) • [Tech index](./README.md) • Next: [Windows](./windows.md)
-
+[Docs index](../README.md) • [Interview hub](../interview/interview.md) • [Vision](../vision.md) • [Specs index](../spec/README.md) • [Product index](../product/README.md) • [UI index](../ui/README.md) • [Tech index](./README.md) • [Project README](../../README.md)

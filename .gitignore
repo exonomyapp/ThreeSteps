@@ -6,6 +6,9 @@ Thumbs.db
 .vscode/
 .idea/
 
+# SOLO / assistant uploads (never commit)
+.uploads/
+
 # Logs
 *.log
 
@@ -22,4 +25,3 @@ build/
 
 # Rust
 target/
-

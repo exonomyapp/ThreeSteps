@@ -2,7 +2,7 @@
 
 This document describes the intended technical design for ThreeSteps as a decentralized, privacy-first application that operates over a traditional P2P topology. The system relies on end-user devices as first-class nodes and introduces **Conscia** nodes (our brand) as headless, always-on P2P participants that provide *enabling services* without becoming a content-controlling server.
 
-See also: [Vision](../vision.md) • [Tech index](./README.md) • [Project README](../../README.md)
+See also: [Interview](../interview/interview.md) • [Vision](../vision.md) • [Tech index](./README.md) • [Project README](../../README.md)
 
 ## 1. Node types
 
@@ -136,4 +136,4 @@ This approach explicitly avoids:
 ---
 
 **Docs navigation**  
-Previous: [Vision](../vision.md) • [Project README](../../README.md) • Index: [Tech](./README.md) • Next: [Android](./android.md)
+[Docs index](../README.md) • [Interview hub](../interview/interview.md) • [Vision](../vision.md) • [Specs index](../spec/README.md) • [Product index](../product/README.md) • [UI index](../ui/README.md) • [Tech index](./README.md) • [Project README](../../README.md)

@@ -4,7 +4,7 @@ ThreeSteps is a decentralized, privacy-first social media application designed f
 
 The defining requirement of ThreeSteps is to avoid, in every aspect, the concept of a centralized server that exercises control over user content. Instead, ThreeSteps is built on decentralized P2P technologies that support **direct point-to-point connections**, including communication via **blind peer relay** when direct connectivity is not possible.
 
-See also: [Technology](./tech/tech.md) • [Tech index](./tech/README.md) • [Project README](../README.md)
+See also: [Interview](./interview/interview.md) • [Technology](./tech/tech.md) • [Tech index](./tech/README.md) • [Project README](../README.md)
 
 ## 1. Mission
 
@@ -110,4 +110,4 @@ The experience feels coherent across platforms while respecting differing workfl
 ---
 
 **Docs navigation**  
-[Project README](../README.md) • [Tech index](./tech/README.md) • Next: [Technology](./tech/tech.md)
+[Docs index](./README.md) • [Interview hub](./interview/interview.md) • [Vision](./vision.md) • [Specs index](./spec/README.md) • [Product index](./product/README.md) • [UI index](./ui/README.md) • [Tech index](./tech/README.md) • [Project README](../README.md)

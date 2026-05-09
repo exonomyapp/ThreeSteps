@@ -89,4 +89,4 @@ Even if iOS signing happens on your Mac, Android can be produced in CI:
 ---
 
 **Docs navigation**  
-Previous: [Technology](./tech.md) • [Tech index](./README.md) • Next: [iOS](./ios.md)
+[Docs index](../README.md) • [Interview hub](../interview/interview.md) • [Vision](../vision.md) • [Specs index](../spec/README.md) • [Product index](../product/README.md) • [UI index](../ui/README.md) • [Tech index](./README.md) • [Project README](../../README.md)

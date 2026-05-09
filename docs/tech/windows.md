@@ -39,5 +39,4 @@ The iroh/Willow layer is primarily for **data sync** and (optionally) **artifact
 ---
 
 **Docs navigation**  
-Previous: [iOS](./ios.md) • [Tech index](./README.md) • Next: [macOS](./macos.md)
-
+[Docs index](../README.md) • [Interview hub](../interview/interview.md) • [Vision](../vision.md) • [Specs index](../spec/README.md) • [Product index](../product/README.md) • [UI index](../ui/README.md) • [Tech index](./README.md) • [Project README](../../README.md)

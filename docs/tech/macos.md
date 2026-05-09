@@ -39,5 +39,4 @@ The P2P layer remains responsible for ThreeSteps’ decentralized data sync, and
 ---
 
 **Docs navigation**  
-Previous: [Windows](./windows.md) • [Tech index](./README.md) • Next: [Technology](./tech.md)
-
+[Docs index](../README.md) • [Interview hub](../interview/interview.md) • [Vision](../vision.md) • [Specs index](../spec/README.md) • [Product index](../product/README.md) • [UI index](../ui/README.md) • [Tech index](./README.md) • [Project README](../../README.md)
