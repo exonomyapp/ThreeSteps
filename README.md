@@ -1,6 +1,6 @@
 # ThreeSteps
 
-ThreeSteps is a decentralized, privacy-first social media application designed for Catholics to practice their faith in total privacy, including in environments with limited, intermittent, or no connectivity.
+ThreeSteps is a decentralized, privacy-first social media application designed for Catholics to socialize their faith in unassailable freedom, including in environments with limited, intermittent, or no connectivity.
 
 This repository starts with two core documents:
 
