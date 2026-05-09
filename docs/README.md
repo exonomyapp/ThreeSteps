@@ -8,6 +8,7 @@ This folder contains the full documentation library for ThreeSteps.
 - [Vision](./vision.md)
 - [Tech vision](./tech/tech.md)
 - [Progress log](./progress.md)
+- [Resolved decisions](./decisions.md)
 
 ## Indexes by area
 - [Product docs](./product/README.md)

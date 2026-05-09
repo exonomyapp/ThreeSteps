@@ -23,6 +23,7 @@ This repository starts with two core documents:
 | [Interview](./docs/interview/interview.md) | Iterative spec interview hub and links to deeper dive docs |
 | [Docs index](./docs/README.md) | Full documentation library |
 | [Progress log](./docs/progress.md) | Summary of what we’ve specified and documented so far |
+| [Resolved decisions](./docs/decisions.md) | Canonical list of decisions to prevent re-litigating |
 
 ---
 
