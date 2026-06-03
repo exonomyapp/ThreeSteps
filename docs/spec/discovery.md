@@ -1,22 +1,13 @@
-# ThreeSteps — Discovery & Conscia Federation (Spec)
+# ThreeSteps — Discovery and Conscia (Spec)
+This document defines how followers, circles, and Conscia nodes are discovered in a multi-layer peer-to-peer environment.
+See also: [Technology](../tech/tech.md) • [Visibility](./visibility.md) • [Circles](./circles.md) • [Project README](../../README.md)
 
-This document defines how followers, circles, forums, and Conscia nodes are discovered in a multi-layer P2P environment, including Conscia federation.
+## 1. Conscia model
+- Anyone can deploy a Conscia node and pay for their own hosting.
+- Conscia nodes participate in the same peer network as user devices.
+- Conscia nodes provide services that improve reachability and discovery, without controlling user content.
 
-See also: [Tech vision](../tech/tech.md) • [Visibility](./visibility.md) • [Project README](../../README.md)
-
----
-
-## 1. Conscia model (from interview)
-
-- Anyone can spin up and deploy a Conscia node and pay for their own hosting.
-- Conscia is a community “Swiss army knife” multimodal passive supernode.
-- Conscia remains lightweight by registering/extending other services (via service workers on cloud providers using live credentials; e.g., OpenTofu).
-- Followers can create their own Conscia nodes; we facilitate inter-Conscia communications via peer federation.
-- Discovery works on multiple layers.
-
----
-
-## 2. Discovery layers (draft)
+## 2. Discovery layers
 
 ### Layer A — Local proximity
 Examples:
@@ -24,46 +15,39 @@ Examples:
 - local broadcast (Wi‑Fi / Bluetooth-style proximity)
 
 Use cases:
-- missionaries / limited connectivity onboarding
-- “street-corner” circles in physical proximity
+- limited connectivity onboarding
+- in-person formation where people are physically nearby
 
-### Layer B — Direct peer introductions
+### Layer B — Direct introductions
 Examples:
-- follower shares a did:peer + endpoints out-of-band
-- “invite” artifacts that can be carried offline
+- someone shares a link or QR out-of-band
+- invite artifacts that can be carried offline
 
-### Layer C — Conscia-assisted rendezvous
-Examples:
-- TURN/STUN
-- relay-assisted introductions
-- bootstrap rendezvous services (without storing content)
+### Layer C — Conscia-assisted introductions
+Conscia nodes can help people and circles find each other when direct connectivity is blocked.
 
-### Layer D — Federated Conscia network
-Conscia nodes can peer with one another to improve:
+### Layer D — Conscia-to-Conscia federation
+Conscia nodes can connect to other Conscia nodes to improve:
 - reachability
-- propagation of public catalogs (forums, circle type catalogs, docs bundles)
+- discoverability of published forums and circles
+
+## 3. What is discoverable
+Circles and published forums can be discoverable.
+Open decision points include whether discoverable includes:
+- existence only (name + type)
+- membership list
+- live endpoints for joining or observing
+
+## 4. Access requests
+When a follower wants access to Conscia services, they submit an access request to a Conscia node.
+A Conscia operator reviews and approves or denies the request in ConSoul.
+
+## 5. Trust and abuse resistance
+Open decisions to lock:
+- How followers decide which Conscia nodes to trust.
+- How spam is mitigated for public discovery surfaces.
+- Whether there are official Conscia nodes alongside community-run ones.
 
 ---
-
-## 3. What is discoverable (ties to “public”)
-
-Circles and published forums are publicly present and discoverable.
-
-We still need to decide whether “discoverable” includes:
-- discoverable existence only (name + type), or
-- discoverable membership list, or
-- discoverable live endpoints for joining/observing
-
----
-
-## 4. Trust and abuse resistance (to lock)
-
-Key questions we must answer:
-- How do followers decide which Conscia nodes to trust/use?
-- Can anyone advertise a circle publicly, and how do we mitigate spam?
-- Do we have “official” 3S-operated Conscia nodes and public forums, alongside community-run ones?
-
----
-
 **Docs navigation**  
 [Docs index](../README.md) • [Specs index](./README.md) • [Interview hub](../interview/interview.md) • [Vision](../vision.md) • [Product index](../product/README.md) • [UI index](../ui/README.md) • [Tech index](../tech/README.md) • [Project README](../../README.md)
